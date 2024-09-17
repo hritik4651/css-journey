@@ -1,0 +1,74 @@
+/* level-2 */
+
+#box{
+     width: 600px;
+     height: 400px;
+     background-color: dodgerblue;
+     padding: 60px 10px;
+     border: 10px solid #919191;
+     margin: 50px 600px;
+     border-radius: 10px;
+}
+
+/* practic-3 */
+#circle{
+     height: 100px;
+     width: 100px;
+     background-color: green;
+     border-radius: 50%;
+}
+body{
+     margin: 0;
+}
+#navbar{
+     height: 60px;
+     background-color: #0f1111;
+     
+}
+#navbar a{
+     margin-right: 200px;
+     color: aliceblue;
+}
+.yellow{
+     color: #f08804;
+}
+#yellow{
+     background-color: #f08804;
+}
+
+
+.display{
+     width: 200px;
+     height: 200px;
+     background-color: rgba(0, 255, 0, 0.5);
+     border: 1px solid;
+     border-radius: 20%;
+     display: inline-block;
+     margin: 10px;
+     /* visibility: hidden; */
+
+}
+
+
+/* practic-4 */
+#d1{
+     width: 100px;
+     height: 100px;
+     background-color: rgba(0, 255, 0, 0.5);
+     display: inline-block;
+}
+#d2{
+     width: 100px;
+     height: 100px;
+     background-color: rgba(255, 0, 0, 0.5);
+     display: inline-block;
+}
+#d3{
+     width: 100px;
+     height: 100px;
+     background-color: rgba(0, 0, 255, 0.5);
+     display: inline-block;
+}
+#content{
+     height: 800px;
+}

@@ -1,0 +1,142 @@
+/* Level-4 */
+
+#main{
+     width: 80vw;
+     height: 20vw;
+     background-color: #919191;
+     margin-left: auto;
+     margin-right: auto;
+     display: flex;
+     flex-direction: row;
+     justify-content: space-evenly;
+     /* flex-wrap: wrap; */
+     align-items: center;
+     /* align-content: center; */
+}
+.box{
+     width: 10vw;
+     height: 10vw;
+     background-color: dodgerblue;
+     border: 1px solid;
+     margin: 2px;
+     padding: 3px;
+     /* flex-wrap: wrap; */
+
+     /* align-self : alignment of individual along the cross axis. */
+     align-self: flex-end;
+}
+#b2{
+     align-self: flex-start;
+     /* flex-shrink: 2; */
+     flex-grow: 4;
+}
+
+
+/* practic-6 */
+
+#flex{
+     display: flex;
+     width: 100%;
+     height: 80px;
+     background-color: #919191;
+     justify-content: space-evenly;
+     align-items: center;
+
+}
+#flex li{
+     list-style-type: none;
+     font-size: 1.4rem;
+}
+a{
+     color: black;
+     text-decoration: none;
+}
+
+#parent{
+     width: 300px;
+     height: 300px;
+     background-color: dodgerblue;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     margin-left: auto;
+     margin-right: auto;
+     
+}
+#child{
+     width: 150px;
+     height: 150px;
+     background-color: #919191;
+}
+/* 
+@media (width:2000px) {
+     #parent{
+          background-color: red;
+     }
+     #child{
+          background-color: chocolate;
+     }
+} */
+
+/* @media (min-width:800px){
+     #parent{
+          background-color: green;
+     }
+     #child{
+          background-color: chartreuse;
+     }
+} */
+
+/* @media (max-width:1920px){
+     #parent{
+          background-color: green;
+     }
+     #child{
+          background-color: chartreuse;
+     }
+} */
+
+@media (min-width:500px) and (max-width:600px) {
+     #parent{
+          background-color: blueviolet;
+     }
+     #child{
+          background-color: chartreuse;
+     }
+}
+
+
+/* practic-7 */
+#media{
+     width: 200px;
+     height: 200px;
+     background-color: #919191;
+}
+@media (max-width:300px){
+     #media{
+          width: 100px;
+          height: 100px;
+          background-color: red;
+     }
+}
+@media (min-width:300px) and (max-width:400px){
+     #media{
+          width: 150px;
+          height: 150px;
+          background-color: grey;
+     }
+}
+@media (min-width:400px) and (max-width:600px){
+     #media{
+          width: 200px;
+          height: 200px;
+          background-color: green;
+     }
+}
+@media (min-width:600px){
+     #media{
+          width: 400px;
+          height: 400px;
+          background-color: blue;
+     }
+}

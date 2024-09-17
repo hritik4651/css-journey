@@ -1,0 +1,69 @@
+/* Level-3 */
+
+h1{
+     font-size: 3rem;
+     padding-left: 10%;
+}
+#d1{
+     font-size: 20px;
+     width: 80vw;
+     height: 30vh;
+     background-color: dodgerblue;
+}
+#d1 p{
+     font-size: 1em;
+}
+
+.position{
+     width: 15vw;
+     height: 15vw;
+     border: 1px solid;
+     display: inline-block;
+     margin: 5px;
+}
+#box1{
+     background-color: red;
+     position: relative;
+     left: 40px;
+     top: 40px;
+     z-index: 1;
+}
+#box2{
+     background-color: yellow;
+     position: absolute;
+     left: 2px;
+
+}
+#box3{
+     background-color: blue;
+     position: fixed;
+     top: 0;
+}
+#box4{
+     background-color: green;
+}
+#box5{
+     background-color: grey;
+     position: sticky;
+     top: 0;
+}
+
+#img{
+     width: 100px;
+     height: 100px;
+     background-image: url("./download.jpeg");
+     background-size: cover;
+}
+
+
+/* practic-5 */
+#nature{
+     width: 300px;
+     height: 300px;
+     background-image: url("./download.jpeg");
+     background-size: cover;
+     position: fixed;
+     right: 0;
+     bottom: 0;
+     z-index: 1;
+}
