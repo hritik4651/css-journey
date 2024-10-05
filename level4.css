@@ -1,5 +1,8 @@
 /* Level-4 */
 
+body{
+     background-color: #919191;
+}
 #main{
      width: 80vw;
      height: 20vw;
@@ -12,6 +15,7 @@
      /* flex-wrap: wrap; */
      align-items: center;
      /* align-content: center; */
+     
 }
 .box{
      width: 10vw;
@@ -139,4 +143,19 @@ a{
           height: 400px;
           background-color: blue;
      }
+}
+
+
+
+
+
+.bg-img{
+     border: 1px solid;
+     width: 196px;
+     height: 60px;
+     background-image: url("./nav-sprite-global-2x-reorg-privacy._CB600086755_.png");
+     background-position-x: -18px;
+     background-position-y: -101px;
+     /* background-size: cover; */
+     /* display: inline-block; */
 }
